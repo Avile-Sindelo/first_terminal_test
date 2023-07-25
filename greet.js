@@ -1,3 +1,3 @@
-export default greet(neighborName){
-    return `Hello, ${neighborName}`;
-};
+export default function greet(name){
+    return `Hello, ${name}`;
+}
